@@ -1,0 +1,1 @@
+etc-registry is a registry loader for node.js projects.

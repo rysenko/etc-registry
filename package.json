@@ -1,0 +1,13 @@
+{
+  "name": "etc-registry",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rysenko/etc-registry"
+  },
+  "license": "MIT",
+  "main": "lib/registry.js",
+  "dependencies": {
+    "node-etcd": "^4.2.1"
+  }
+}
