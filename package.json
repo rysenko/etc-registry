@@ -9,5 +9,10 @@
   "main": "lib/registry.js",
   "dependencies": {
     "node-etcd": "^4.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "mockery": "^1.4.0",
+    "node-etcd-mock": "^0.9.2"
   }
 }
