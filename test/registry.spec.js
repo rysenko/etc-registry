@@ -11,6 +11,7 @@ describe('Registry', function() {
     registry.load(function(err, result) {
       assert.ifError(err);
       assert.equal(result['service:8080'], 'localhost:8080');
+      assert(result.get);
       done();
     });
   });
